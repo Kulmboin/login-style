@@ -43,18 +43,13 @@ body .main-container{
     align-items: center;
 }
 
-body section h1{
-    font-size: 50px;
-    margin-bottom: 20px;
-}
-
-body section .login-container{
+body div .login-container{
     width: 80%;
     height: 350px;
     background-color: aliceblue;
 }
 
-body section div form input{
+body div section form input{
     font-size: 20px;
     outline: none;
     border: 2px solid ;

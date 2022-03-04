@@ -15,15 +15,22 @@
             <!-- not yet -->
         </nav>
     </header>
-    <section class="main-container">
-        <h1 class="logo">logo</h1>
-        <div class="login-container">
-            <form action="###" method="post" class="login-container">
-                <input type="text"  placeholder="User name" name="user-id" id="id" autocomplete="off">
-                <input type="password" placeholder="Password" name="user-Password" id="password" autocomplete="off">
+    <div class="main-container">
+        <section class="login-container">
+            <form action="###" method="post" class="login-input">
+                <input type="text"  placeholder="User name" name="login-id" id="login-id" autocomplete="off">
+                <input type="password" placeholder="Password" name="login-ps" id="login-ps" autocomplete="off">
                 <button type="submit" class="btn-login"></button>
             </form>
-        </div>
-    </section>
+        </section>
+        <section class="signup-container">
+            <form action="###" method="post" class="signup-input">
+                <input type="email" placeholder="your email" name="sign-email" id="sign-email" autocomplete="off">
+                <input type="password" placeholder="Password" name="sign-ps" id="sign-ps" autocomplete="off">
+                <input type="password" placeholder="Confirm password" name="sign-con-ps" id="sign-con-ps" autocomplete="off">
+                <button type="submit" class="btn-sign"></button>
+            </form>
+        </section>
+    </div>
 </body>
 </html>
